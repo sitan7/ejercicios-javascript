@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" type="text/css" rel="stylesheet"  />
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="contenedor-calculadora">
+        <div class="caja">
+            <div class="cabecera-entrada">
+                <input type="text" value="0." class="entrada" disabled="true" id="entrada"/>
+            </div>
+            <div class="grupo-botones">
+                <div class="fila-botones">
+                    <div class="contenedor-boton"><button class="boton numero" data-natalia="7">7</button></div>
+                    <div class="contenedor-boton"><button class="boton numero" data-natalia="8">8</button></div>
+                    <div class="contenedor-boton"><button class="boton numero" data-natalia="9">9</button></div>
+                    <div class="contenedor-boton"><button class="boton operador" data-natalia="/">/</button></div>
+                </div>
+                <div class="fila-botones">
+                    <div class="contenedor-boton"><button class="boton numero" data-natalia="4">4</button></div>
+                    <div class="contenedor-boton"><button class="boton numero" data-natalia="5">5</button></div>
+                    <div class="contenedor-boton"><button class="boton numero" data-natalia="6">6</button></div>
+                    <div class="contenedor-boton"><button class="boton operador" data-natalia="*">*</button></div>
+                </div>
+                <div class="fila-botones">
+                    <div class="contenedor-boton"><button class="boton numero" data-natalia="1">1</button></div>
+                    <div class="contenedor-boton"><button class="boton numero" data-natalia="2">2</button></div>
+                    <div class="contenedor-boton"><button class="boton numero" data-natalia="3">3</button></div>
+                    <div class="contenedor-boton"><button class="boton operador" data-natalia="-">-</button></div>
+                </div>
+                <div class="fila-botones">
+                    <div class="contenedor-boton"><button class="boton numero" data-natalia="0">0</button></div>
+                    <div class="contenedor-boton"><button class="boton numero" data-natalia=".">.</button></div>
+                    <div class="contenedor-boton"><button class="boton operador result" data-natalia="=">=</button></div>
+                    <div class="contenedor-boton"><button class="boton operador"data-natalia="+">+</button></div>
+                </div>
+            </div>
+        </div>        
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

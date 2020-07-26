@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.contenedor .caja{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+}
+.contenedor .div-1{
+    background-color: brown;
+}
+
+@media(min-width: 360px) and (max-width: 1263px){
+    .contenedor .caja.div-1{
+        width: 10%;
+        background-color: yellow;
+    }
+    .contenedor .caja.div-2{
+        width: 90%;
+        background-color: green;
+    }
+}
+@media(max-width: 360px){
+    .contenedor .caja{
+        width: 100%;
+    }
+}

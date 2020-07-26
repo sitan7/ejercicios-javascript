@@ -1,0 +1,67 @@
+body{
+    font-size: 16px;
+}
+.contenedor-calculadora .caja {
+    display: block;
+    width: 250px;
+    background-color: #4d4d4d;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contenedor-calculadora .caja .cabecera-entrada{
+    display: block;    
+    margin-bottom: 15px;
+}
+.contenedor-calculadora .caja .cabecera-entrada .entrada{
+    background-color: #d0e6a8;
+    color: #4d4e4c;
+    font-size: 3em;
+    display: block;
+    width: calc(100% - 8px);
+    text-align: right;
+    border-radius: 8px;
+    font-family: 'Quartz', sans-serif;
+}
+.contenedor-calculadora .caja .grupo-botones {
+    display: block;
+}
+
+.contenedor-calculadora .caja .grupo-botones .fila-botones{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenedor-calculadora .caja .grupo-botones .fila-botones .contenedor-boton{
+    display: inline-flex;
+    width: calc(100% / 4);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.contenedor-calculadora .caja .grupo-botones .fila-botones .contenedor-boton .boton{
+    display: block;
+    margin: 0 auto;
+    background-color: #808080;
+    font-size: 2em;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.contenedor-calculadora .caja .grupo-botones .fila-botones .contenedor-boton .boton.numero:hover{
+    background-color: #6b6a6a;
+}
+.contenedor-calculadora .caja .grupo-botones .fila-botones .contenedor-boton .boton.operador{
+    background-color: #64c7d0;
+}
+.contenedor-calculadora .caja .grupo-botones .fila-botones .contenedor-boton .boton.operador:hover{
+    background-color: #57abb3fa;
+}
+.contenedor-calculadora .caja .grupo-botones .fila-botones .contenedor-boton .boton.operador.result{
+    background-color: #ea5e61;
+}
+
+.contenedor-calculadora .caja .grupo-botones .fila-botones .contenedor-boton .boton.operador:hover{
+    background-color: #57abb3fa;
+}
