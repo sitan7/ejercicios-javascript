@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.contenedor .caja{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+}
+.contenedor .c-1{
+    background-color: #5310e7;
+    width: 100%;
+    height: 10%;
+}
+.contenedor .c-2{
+    background-color: #00e908;
+    height: calc(100% - 10%);
+}
+.contenedor .c-3{
+    background-color: #ffa300;
+    height: calc(100% - 10%);
+}
